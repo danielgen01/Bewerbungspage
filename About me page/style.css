@@ -72,6 +72,8 @@ nav a:hover{
     
 #bewerbungsbild{
   border-radius: 50%;
+  margin-left:80%;
+  
   
   
 
@@ -82,7 +84,7 @@ nav a:hover{
   display: flex;
   justify-content: center;
   margin-top: 5%;
- 
+  margin-left: 18%; 
 
 }
 h2{
