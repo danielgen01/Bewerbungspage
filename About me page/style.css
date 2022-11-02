@@ -26,6 +26,7 @@ body{
 nav{
   display: flex;
   justify-content: flex-end;
+  margin-top: 2%;
 }
 
 
@@ -72,12 +73,17 @@ nav a:hover{
 #aboutme{
   display: flex;
   justify-content: center;
+  margin-top: 5%;
+ 
+
 }
- h2{
+h2{
   text-align: center;
-  color: white;
+  color: #ffffff;
   text-shadow:  1px 1.5px 2px #000000;
-  font-size: 33px;
+  font-size: 55px;
+  line-height: 70px;
+  letter-spacing: 2px;
 
 }
 
@@ -93,7 +99,7 @@ nav a:hover{
 
 h3{
   text-align: center;
-  font-size: 32px;
+  font-size: 52px;
   color: white;
   text-shadow:  1px 2px 1px #000000;
 }
@@ -109,7 +115,7 @@ h3{
 
 .skills-icons i{
  color: rgba(255, 254, 254, 0.75);
- font-size: 65px;
+ font-size: 100px;
  
 }
 
