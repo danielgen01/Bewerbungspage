@@ -1,12 +1,23 @@
 *{
     box-sizing: border-box;
  }
+ 
+/*
+ colors:{
+  #0A2B5C
+  #5C92E1
+  #1866DB
+  #5D5F62
+  #134EA8
+ }
+
+ */
 
 body{
    /* background-image: url(output-onlinepngtools.png); 
     background-position: fixed;
     background-repeat: no-repeat; */ 
-    background-color: #1b1919;
+    background-color: #5D5F62;
     margin:0; 
     font-family: 'Montserrat', sans-serif;
 }
@@ -23,14 +34,14 @@ nav a{
   color:white;
   text-decoration: none;
   font-size: 20px;
-  background-color: midnightblue;
+  background-color: #0A2B5C;
   border-radius: 20px;
   text-shadow: 1px 1px 1px #000000;
 
 }
 
 nav a:hover{
-  color: turquoise;
+  color: #1866DB;
   transition: all 400ms ease-in ;
   box-shadow: 2px 2px 10px lightblue;
 }
@@ -103,7 +114,7 @@ h3{
 }
 
 .skills-icons i:hover{
-box-shadow: 2px 2px 15px violet;
+box-shadow: 2px 2px 15px #5C92E1;
 }
 
 
@@ -115,7 +126,7 @@ box-shadow: 2px 2px 15px violet;
 }
 
 .arrow{
-  background-color:midnightblue;
+  background-color:#0A2B5C;
   width: 250px;
   border-radius: 50px;
 }
@@ -146,13 +157,13 @@ box-shadow: 2px 2px 15px violet;
   cursor: pointer;
   transition:  500ms ease-in-out 0.345s;
   transform: translate(10%);
-  color: turquoise;
+  color: #5C92E1;
   font-size: 68px;
  
 }
 
 .arrow i :active{
- background-color: turquoise;
+ background-color: #5C92E1;
   
 }
 
