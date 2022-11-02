@@ -4,11 +4,11 @@
  
 /*
  colors:{
-  #0A2B5C
-  #5C92E1
-  #1866DB
-  #5D5F62
-  #134EA8
+  #0A2B5C  ||   0596A8 -- Background
+  #5C92E1  ||   #e6cb04 -- yellow for accents
+  #1866DB  ||  #A80056 --  magenta for accents
+  #5D5F62  ||   #5C0933 --  dark violet for accents
+  #134EA8  ||
  }
 
  */
@@ -17,7 +17,7 @@ body{
    /* background-image: url(output-onlinepngtools.png); 
     background-position: fixed;
     background-repeat: no-repeat; */ 
-    background-color: #5D5F62;
+    background-color: #0596A8;
     margin:0; 
     font-family: 'Montserrat', sans-serif;
 }
@@ -26,7 +26,8 @@ body{
 nav{
   display: flex;
   justify-content: flex-end;
-  margin-top: 2%;
+  padding-top: 0.3%;
+  
 }
 
 
@@ -35,14 +36,15 @@ nav a{
   color:white;
   text-decoration: none;
   font-size: 20px;
-  background-color: #0A2B5C;
+  background-color: #A80056;
   border-radius: 20px;
   text-shadow: 1px 1px 1px #000000;
+  box-shadow: 1px 1px 1px 1px #000000;
 
 }
 
 nav a:hover{
-  color: turquoise;
+  color: #e6cb04;
   transition: all 400ms ease-in ;
   box-shadow: 2px 2px 10px lightblue;
 }
@@ -66,6 +68,7 @@ nav a:hover{
     
 #bewerbungsbild{
   border-radius: 50%;
+  
 
   
 }
@@ -120,7 +123,7 @@ h3{
 }
 
 .skills-icons i:hover{
-box-shadow: 2px 2px 15px #5C92E1;
+box-shadow: 2px 2px 15px #e6cb04;
 }
 
 
@@ -132,9 +135,10 @@ box-shadow: 2px 2px 15px #5C92E1;
 }
 
 .arrow{
-  background-color:#0A2B5C;
+  background-color:#A80056;
   width: 250px;
   border-radius: 50px;
+  box-shadow: 1px 1px 1px 1px #000000;
 }
 
 .arrow:hover{
@@ -163,13 +167,13 @@ box-shadow: 2px 2px 15px #5C92E1;
   cursor: pointer;
   transition:  500ms ease-in-out 0.345s;
   transform: translate(10%);
-  color: #5C92E1;
+  color: #e6cb04;
   font-size: 68px;
  
 }
 
 .arrow i :active{
- background-color: #5C92E1;
+ background-color: #A80056;
   
 }
 
@@ -195,6 +199,13 @@ box-shadow: 2px 2px 15px #5C92E1;
   margin-right:10%;
 }
     
+
+#description{
+ text-align: center;
+
+}
+
+
 
  [class*="col-"] {
     padding: 15px;
