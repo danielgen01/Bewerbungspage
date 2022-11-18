@@ -219,11 +219,8 @@ box-shadow: 0.2rem 0.2rem 1rem #e6cb04;
 }
 
 #img-ctn{
- float: right;
- right: 50%;
-
-
-
+float:right;
+ 
 }
 
 .row{
@@ -235,6 +232,7 @@ box-shadow: 0.2rem 0.2rem 1rem #e6cb04;
   color: #ffffff;
   text-shadow: 1px 1px 1px #000000;
   visibility: visible;
+  position: sticky;
 }
 
 #menu-icon:hover{
@@ -288,7 +286,11 @@ box-shadow: 0.2rem 0.2rem 1rem #e6cb04;
       width: 20rem;
     }
 
-  
+  nav{
+    background-color: rgba(0, 0, 0, 0.3);
+    width:100%;
+    position: sticky;
+  }
 }
 
 
