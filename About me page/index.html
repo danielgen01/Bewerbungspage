@@ -29,15 +29,38 @@
         <a href="/Skills page/skills.html">Skills</a>
         <a href=mailto:gendik38@gmail.com title="mailtoDaniel">Contact</a>
     </ul>
+</nav>
 
     <!-- MOBILE PHONE MENU ICON -->
-    <i class='bx bx-menu' id="menu-icon"></i>
-    </nav>
+    
+        <i class='bx bx-menu' id="menu-icon" onclick="openMenu()"></i><br><br><br><br><br><br><br><br>
+        <div class="nav-bar-phone">
+        <a href="index.html">About me</a>
+        <a href="index.html">Projects</a>
+        <a href="/Skills page/skills.html">Skills</a>
+        <a href=mailto:gendik38@gmail.com title="mailtoDaniel">Contact</a>
+
+    </div>
+       
+
+    </div>
+    
+    
+    <script>
+        let openMenu = () =>{
+            if(document.getElementById('nav-bar-phone').style.visibility = 'hidden'){
+                document.getElementById('nav-bar-phone').style.visibility = 'visible'
+            };
+            
+        
+        }
+    </script>
+    
 
                     <!-- My person description in middle  -->
 
             <main>
-                <div class="row">
+                
                     
                     
                 <div id="aboutme" class="col-s-7 col-7">

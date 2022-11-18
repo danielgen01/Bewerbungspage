@@ -66,6 +66,31 @@ nav a:hover{
  
 }
 
+.nav-bar-phone{
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 10rem;
+  width: 90%;
+  z-index: 10;
+  margin:0;
+  padding: 0;
+  overflow: auto;
+  position: fixed;
+  float: right;
+  visibility: hidden;
+  
+}
+
+.nav-bar-phone a{
+  display: block;
+  float: right;
+  font-size: 4rem;
+  color: #ffffff;
+  display: flex;
+  padding: 1rem;
+  
+  text-decoration: none;
+}
+
 #name{
   display: flex;
   justify-content: center;
@@ -77,7 +102,7 @@ nav a:hover{
 #bewerbungsbild{
   border-radius: 50%;
   margin-left:50%;
-  border:0.2rem solid #e6cb04;
+  border:0.2rem groove #e6cb04;
   overflow: hidden;
   height: 35rem;
   width: auto;
@@ -130,7 +155,10 @@ h3{
   text-align: center;
 }
 
-
+.skills-icons {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
 
 .skills-icons i{
  color: rgba(255, 254, 254, 0.99);
@@ -246,6 +274,7 @@ float:right;
   text-shadow: 1px 1px 1px #000000;
   visibility: visible;
   position: sticky;
+  float: right;
 }
 
 #menu-icon:hover{
@@ -275,7 +304,7 @@ float:right;
     
   }
 
-  
+
 
   html{
     font-size: 5px;
@@ -296,9 +325,8 @@ float:right;
     }
 
     #img-ctn{
+      padding-right: 30%;
       
-      display: flex;
-      justify-content: center;
     }
 
     #arrows{
@@ -307,13 +335,29 @@ float:right;
       
     .arrow{
       width: 20rem;
+      height: auto;
     }
 
   nav{
-    background-color: rgba(0, 0, 0, 0.3);
     width:100%;
     position: sticky;
+  
+    }
+
+  #aboutme{
+    display: flex;
+    justify-content: center;
   }
+
+  #made{
+    font-size: 3rem;
+  }
+
+  .nav-bar-phone{
+    visibility: visible;
+  }
+
+  
 }
 
 
