@@ -28,6 +28,7 @@ nav{
   justify-content: flex-end;
   padding-top: 0.3%;
   
+  
 }
 
 
@@ -52,6 +53,8 @@ nav a:hover{
   cursor: pointer;
   
 }
+
+
 
 
 
@@ -88,6 +91,8 @@ nav a:hover{
   display: flex;
   justify-content: center;
   float:left;
+  padding-left:17%;
+  height:38rem;
 
 }
 h2{
@@ -115,6 +120,7 @@ h3{
   font-size: 4rem;
   color: white;
   text-shadow:  1px 2px 1px #000000;
+
 }
 
 #skills{
@@ -128,8 +134,16 @@ h3{
 .skills-icons i{
  color: rgba(255, 254, 254, 0.99);
  font-size: 8rem;
+ text-shadow: 1px 1px 1px #000000;
  
  
+}
+
+.skills-ctn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
 }
 
 .skills-icons i:hover{
@@ -194,7 +208,7 @@ box-shadow: 0.2rem 0.2rem 1rem #e6cb04;
   color: white;
   text-shadow: 1px 1px 1px black;
   text-align: center;
-  margin-top: 3%;
+  margin-top: 2%;
   font-size: 1.5rem;
 }
 
@@ -220,11 +234,11 @@ box-shadow: 0.2rem 0.2rem 1rem #e6cb04;
 
 #img-ctn{
 float:right;
- 
+ height: 38rem;
 }
 
 .row{
-  margin-top: 2%;
+  flex-wrap: wrap;
 }
 
 #menu-icon{
@@ -273,9 +287,17 @@ float:right;
   }
 
     #bewerbungsbild{
-      
-      height: 40rem;
+      right: 50%;
+      height: 35rem;
       width: auto;
+      display:flex;
+      justify-content: center;
+    }
+
+    #img-ctn{
+      
+      display: flex;
+      justify-content: center;
     }
 
     #arrows{
@@ -295,7 +317,7 @@ float:right;
 
 
   
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) and (max-width: 750px) {
     /* For tablets: */
     .col-s-1 {width: 8.33%;}
     .col-s-2 {width: 16.66%;}
@@ -309,6 +331,8 @@ float:right;
     .col-s-10 {width: 83.33%;}
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
+
+    
 
   }
   
@@ -336,7 +360,5 @@ float:right;
     }
   
 
-      #skills h3{
-       
-  }
+      
 }
