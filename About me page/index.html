@@ -32,8 +32,9 @@
 </nav>
 
     <!-- MOBILE PHONE MENU ICON -->
-    
-        <i class='bx bx-menu' id="menu-icon" onclick="openMenu()"></i><br><br><br><br><br><br><br><br>
+
+  
+        <i class='bx bx-menu' id="menu-icon" onclick="toggleMenu()"></i><br><br><br><br><br><br><br><br>
         <div class="nav-bar-phone">
         <a href="index.html">About me</a>
         <a href="index.html">Projects</a>
@@ -44,19 +45,28 @@
        
 
     </div>
-    
-    
     <script>
-        let openMenu = () =>{
-            if(document.getElementById('nav-bar-phone').style.visibility = 'hidden'){
-                document.getElementById('nav-bar-phone').style.visibility = 'visible'
-            }else{
-                document.getElementById('nav-bar-phone').style.visibility = 'hidden'
-            };
-            
         
-        }
-    </script>
+          
+
+        let toggleStatus = 0;
+
+          let toggleMenu = () =>{
+          if (toggleStatus === 0){
+             document.getElementsByClassName('nav-bar-phone').style.top = '12%';
+             toggleStatus = 1;
+          }else{
+             document.getElementsByClassName('nav-bar-phone').stye.top = '-50%';
+             toggleStatus = 0;
+          }
+ 
+ }
+
+
+ 
+ </script>f
+    
+   
     
 
                     <!-- My person description in middle  -->
