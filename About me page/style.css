@@ -66,30 +66,7 @@ nav a:hover{
  
 }
 
-.nav-bar-phone{
-  background-color: rgba(0, 0, 0, 0.5);
-  height: 10rem;
-  width: 90%;
-  z-index: 10;
-  margin:0;
-  padding: 0;
-  overflow: auto;
-  position: fixed;
-  float: right;
-  visibility: hidden;
-  
-}
 
-.nav-bar-phone a{
-  display: block;
-  float: right;
-  font-size: 4rem;
-  color: #ffffff;
-  display: flex;
-  padding: 1rem;
-  
-  text-decoration: none;
-}
 
 #name{
   display: flex;
@@ -283,6 +260,45 @@ float:right;
 
 #menu-icon:active{
   cursor: pointer;
+  color: #e6cb04;
+}
+
+.nav-bar-phone{
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 50rem;
+  width: 90%;
+  z-index: 100;
+  margin:0;
+  padding: 0;
+  overflow: visible;
+  position: fixed;
+  flex-wrap: nowrap;
+  
+  
+  
+  
+}
+
+.nav-bar-phone a{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  color: #ffffff;
+  display: flex;
+  padding: 1rem;
+  z-index: 100;
+  padding-top:6%;
+  text-decoration: none;
+}
+
+.nav-bar-phone a:hover{
+  color: #e6cb04;
+}
+
+
+.nav-bar-phone a:active{
+  color: #e6cb04;
 }
 
 
