@@ -59,6 +59,7 @@ nav a:hover{
 
 #navs{
  margin-right: 5%;
+ visibility: hidden;
  
 }
 
@@ -86,8 +87,7 @@ nav a:hover{
 #aboutme{
   display: flex;
   justify-content: center;
-  margin-top: 3%;
-  margin-left: 18%; 
+  float:left;
 
 }
 h2{
@@ -111,7 +111,7 @@ h2{
 }
 
 h3{
-  text-align: center;
+ 
   font-size: 4rem;
   color: white;
   text-shadow:  1px 2px 1px #000000;
@@ -120,11 +120,10 @@ h3{
 #skills{
  
   color: white;
- text-align: center;
-
-
-
+  text-align: center;
 }
+
+
 
 .skills-icons i{
  color: rgba(255, 254, 254, 0.99);
@@ -187,6 +186,7 @@ box-shadow: 0.2rem 0.2rem 1rem #e6cb04;
 
 .arrow i :active{
  background-color: #A80056;
+ color: #e6cb04;
   
 }
 
@@ -218,11 +218,38 @@ box-shadow: 0.2rem 0.2rem 1rem #e6cb04;
 
 }
 
+#img-ctn{
+ float: right;
+ right: 50%;
+
+
+
+}
+
+.row{
+  margin-top: 2%;
+}
+
+#menu-icon{
+  font-size: 10rem;
+  color: #ffffff;
+  text-shadow: 1px 1px 1px #000000;
+  visibility: visible;
+}
+
+#menu-icon:hover{
+  cursor: pointer;
+}
+
+#menu-icon:active{
+  cursor: pointer;
+}
+
 
 
  [class*="col-"] {
     padding: 1.5rem;
-    border: 1px solid blue;
+    border: 1px solid blue; 
 
    
     
@@ -235,6 +262,32 @@ box-shadow: 0.2rem 0.2rem 1rem #e6cb04;
     
 
     
+  }
+
+  html{
+    font-size: 6px;
+  }
+
+  h2{
+    letter-spacing: normal;
+  }
+
+    #bewerbungsbild{
+      
+      height: 40rem;
+      width: auto;
+    }
+
+    #arrows{
+      margin-top: 20%;
+    }
+      
+    .arrow{
+      width: 20rem;
+    }
+
+  #made{
+    margin-top: 20%;
   }
 }
 
@@ -272,5 +325,16 @@ box-shadow: 0.2rem 0.2rem 1rem #e6cb04;
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
 
+    #navs{
+      visibility: visible;
+    }
+
+    #menu-icon{
+      visibility: hidden;
+    }
   
+
+      #skills h3{
+       
   }
+}
