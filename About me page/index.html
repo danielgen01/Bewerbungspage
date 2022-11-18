@@ -50,17 +50,22 @@
           
 
         let toggleStatus = 0;
+        
+        let menuList = document.getElementsByClassName('nav-bar-phone');
 
           let toggleMenu = () =>{
           if (toggleStatus === 0){
-             document.getElementsByClassName('nav-bar-phone').style.top = '12%';
+            menuList.style.top = '12%';
              toggleStatus = 1;
-          }else{
-             document.getElementsByClassName('nav-bar-phone').stye.top = '-50%';
+          }else if(toggleStatus === 1){
+             menuList.stye.top = '-50%';
              toggleStatus = 0;
+          
           }
  
  }
+
+
 
 
  
