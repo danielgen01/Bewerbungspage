@@ -266,6 +266,8 @@ box-shadow: 0.2rem 0.2rem 1rem #e6cb04;
 
   html{
     font-size: 6px;
+    margin-right:5%;
+    margin-left:5%;
   }
 
   h2{
@@ -279,16 +281,14 @@ box-shadow: 0.2rem 0.2rem 1rem #e6cb04;
     }
 
     #arrows{
-      margin-top: 20%;
+      margin-top: 4%;
     }
       
     .arrow{
       width: 20rem;
     }
 
-  #made{
-    margin-top: 20%;
-  }
+  
 }
 
 
