@@ -88,6 +88,7 @@ nav a:hover{
 }
   
 #aboutme{
+  padding-top: 0%;
   display: flex;
   justify-content: center;
   float:left;
@@ -237,9 +238,7 @@ float:right;
  height: 38rem;
 }
 
-.row{
-  flex-wrap: wrap;
-}
+
 
 #menu-icon{
   font-size: 10rem;
@@ -271,13 +270,15 @@ float:right;
 /* For mobile phones: */
 [class*="col-"] {
     width: 100%;
-    
+    margin-top: 10%;
 
     
   }
 
+  
+
   html{
-    font-size: 6px;
+    font-size: 5px;
     margin-right:5%;
     margin-left:5%;
   }
