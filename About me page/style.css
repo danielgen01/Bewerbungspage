@@ -291,6 +291,7 @@ float:right;
   flex-wrap: nowrap;
   gap:5px;
   display: none;
+  border-radius: 2rem;
   
   }
 
