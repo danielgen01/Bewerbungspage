@@ -27,6 +27,7 @@ nav{
   display: flex;
   justify-content: flex-end;
   padding-top: 0.3%;
+ 
   
   
 }
@@ -40,8 +41,9 @@ nav a{
   background-color: #A80056;
   border-radius: 1.5rem;
   letter-spacing: 0.1rem;
-  box-shadow: 1px 1px 1px 1px #000000;
+  box-shadow: 0.5px 0.5px 0.5px  #000000;
   font-weight: bold;
+  text-shadow: 1px 1px 1px #000000;
   
 
 }
@@ -64,7 +66,10 @@ nav a:hover{
  margin-right: 5%;
  visibility: hidden;
  
+ 
 }
+
+
 
 
 
@@ -303,6 +308,7 @@ float:right;
 
 .nav-bar-phone a:active{
   color: #e6cb04;
+  transform: translateY(0);
 }
 
 
@@ -320,7 +326,7 @@ float:right;
 [class*="col-"] {
     width: 100%;
     margin-top: 10%;
-    border: 1px solid red;
+    
 
     
   }
