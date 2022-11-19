@@ -52,14 +52,14 @@
         let toggleStatus = 0;
         
         let menuButton = document.getElementById('menu-icon');
-        let menuList = document.getElementsByClassName('nav-bar-phone');
+        let menuList = document.querySelector('.nav-bar-phone');
 
         menuButton.addEventListener('click', ()=>{
             if(toggleStatus === 0){
                 menuList.style.display = 'block';
                 toggleStatus = 1;
             }else if(toggleStatus === 1){
-                menuList.style.top = 'none';
+                menuList.style.display = 'none';
                 toggleStatus = 0;
             }
         });
