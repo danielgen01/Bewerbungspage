@@ -344,8 +344,7 @@ float:right;
       right: 50%;
       height: 35rem;
       width: auto;
-      display:flex;
-      justify-content: center;
+      
     }
 
     #img-ctn{
