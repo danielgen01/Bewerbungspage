@@ -378,12 +378,10 @@ float:right;
     font-size: 3rem;
   }
 
-  .nav-bar-phone{
-    visibility: visible;
   }
 
   
-}
+
 
 
   
@@ -429,9 +427,7 @@ float:right;
       visibility: hidden;
     }
   
-    .nav-bar-phone{
-      visibility: hidden;
-    }
+   
 
       
 }
