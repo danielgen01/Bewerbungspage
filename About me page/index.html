@@ -34,7 +34,7 @@
     <!-- MOBILE PHONE MENU ICON -->
 
   
-        <i class='bx bx-menu' id="menu-icon" onclick="toggleMenu()"></i><br><br><br><br><br><br><br><br>
+        <i class='bx bx-menu' id="menu-icon"></i><br><br><br><br><br><br><br><br>
         <div class="nav-bar-phone">
         <a href="index.html">About me</a>
         <a href="index.html">Projects</a>
@@ -51,27 +51,25 @@
 
         let toggleStatus = 0;
         
+        let menuButton = document.getElementById('menu-icon');
         let menuList = document.getElementsByClassName('nav-bar-phone');
 
-          let toggleMenu = () =>{
+        menuButton.addEventListener('click', ()=>{
+            if(toggleStatus === 0){
+                menuList.style.top = '10rem';
+            }else if(toggleStatus === 1){
+                menuList.style.top = '-50rem';
+            }
+        });
 
-          if (toggleStatus == 0){
-            menuList.style.top = '12%';
-             toggleStatus = 1;
-
-          }else if(toggleStatus == 1){
-             menuList.style.top = '-50%';
-             toggleStatus = 0;
           
-          }
  
- }
-
+ 
 
 
 
  
- </script>f
+ </script>
     
    
     
