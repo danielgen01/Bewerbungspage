@@ -320,7 +320,9 @@ float:right;
   transform: translateY(0);
 }
 
-
+ a.active {
+  color:#e6cb04 ;
+}
 
  [class*="col-"] {
     padding: 1.5rem;
