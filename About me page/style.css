@@ -356,7 +356,7 @@ float:right;
 
     #bewerbungsbild{
       right: 50%;
-      height: 35rem;
+      height: auto;
       width: auto;
       margin-bottom: 20%;
       
