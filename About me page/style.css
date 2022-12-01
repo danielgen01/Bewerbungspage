@@ -344,7 +344,7 @@ float:right;
     
   }
   
-  @media only screen and (max-width: 768px) {
+  @media only screen and (min-width: 300px) and (max-width: 480px) {    
 /* For mobile phones: */
 [class*="col-"] {
     width: 100%;
@@ -420,8 +420,9 @@ float:right;
 
 
 
-  
-@media only screen and (min-width: 600px) and (max-width: 950px) {
+   /* For tablets: */
+
+@media only screen and (min-width: 481px) and (max-width: 950px) {
 
   [class*="col-"] {
     width: 100%;
@@ -431,7 +432,7 @@ float:right;
     
   }
 
-    /* For tablets: */
+   
     .col-s-1 {width: 8.33%;}
     .col-s-2 {width: 16.66%;}
     .col-s-3 {width: 25%;}
@@ -487,7 +488,7 @@ float:right;
 
   
   
-  @media only screen and (min-width: 1000px) {
+  @media only screen and (min-width: 950px) {
     /* For desktop: */
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
