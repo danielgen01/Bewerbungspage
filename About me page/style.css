@@ -335,6 +335,21 @@ float:right;
 }
 
 
+.responsive-design-img-ctn{
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  text-shadow: 1px 1px 1px #000000;
+  margin:0;
+  padding:0;
+}
+#responsive-design-img{
+  max-width: 50%;
+  max-height: 30%;
+  
+}
+
+
 
  [class*="col-"] {
     padding: 1.5rem;
