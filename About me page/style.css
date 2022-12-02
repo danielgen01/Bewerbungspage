@@ -121,7 +121,7 @@ nav a:hover{
   justify-content: center;
   float:left;
   height:38rem;
-  position: relative;
+ 
 
 }
 h2{
@@ -176,8 +176,7 @@ h3{
 .skills-ctn{
   display: flex;
   justify-content: center;
-  align-items: center;
-  
+  align-items: center; 
   padding-top: 5rem;
 }
 
@@ -186,58 +185,7 @@ box-shadow: 0.2rem 0.2rem 1rem #e6cb04;
 }
 
 
-#arrows{
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 2%;
- 
-}
 
-.arrow{
-  background-color:#A80056;
-  width: 250px;
-  border-radius: 20rem;
-  box-shadow: 1px 1px 1px 1px #000000;
-}
-
-.arrow:hover{
-  box-shadow: 0.2rem 0.2rem 0.9rem lightblue;
-  cursor: pointer;
-}
-
-.arrow:active{
-  margin-top: 1rem;
-  margin-bottom:1px;
-  box-shadow: 0px 0px;
-
-}
-
-.arrow i{
-  color: rgb(187, 187, 187);
-  font-size:5rem;
-  display: flex;
-  justify-content: flex-start;
-  margin-left:2%;
-  position: relative;
-  text-shadow:  1px 2px 1px #000000;
-  
-}
-
-.arrow i:hover{
-  cursor: pointer;
-  transition:  500ms ease-in-out 0.345s;
-  transform: translate(10%);
-  color: #e6cb04;
-  font-size: 5rem;
-  cursor: pointer;
- 
-}
-
-.arrow i :active{
- background-color: #A80056;
- color: #e6cb04;
-  
-}
 
 #made{
   color: white;
@@ -270,7 +218,7 @@ box-shadow: 0.2rem 0.2rem 1rem #e6cb04;
 #img-ctn{
  float:right;
  height: 38rem;
- position: relative;  
+  
 }
 
 
@@ -308,12 +256,11 @@ box-shadow: 0.2rem 0.2rem 1rem #e6cb04;
   padding: 0;
   margin-top: 15%;
   overflow: visible;
-  position: fixed;
   flex-wrap: nowrap;
   gap:5px;
   display: none;
   border-radius: 2rem;
-  position: relative;
+  
   
   }
 
@@ -358,12 +305,12 @@ box-shadow: 0.2rem 0.2rem 1rem #e6cb04;
 
 
 .responsive-design-ctn{
-  margin-top: auto;
   text-align: center;
   color: white;
   font-size: 2rem;
   text-shadow: 1px 1px 1px #000000;
-  position: relative;
+  
+  
 }
 #responsive-design-img{
   max-width: 50%;
@@ -429,7 +376,7 @@ box-shadow: 0.2rem 0.2rem 1rem #e6cb04;
 
   nav{
     width:100%;
-    position: sticky;
+    
   
     }
 
