@@ -174,9 +174,11 @@ h3{
  
 }
 
-#HTML-logo{
+.logo{
   width: 10rem !important;
 }
+
+
 
 .skills-ctn{
   display: flex;
