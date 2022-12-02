@@ -260,6 +260,7 @@ box-shadow: 0.2rem 0.2rem 1rem #e6cb04;
   gap:5px;
   display: none;
   border-radius: 2rem;
+  position: fixed;
   
   
   }
@@ -275,6 +276,7 @@ box-shadow: 0.2rem 0.2rem 1rem #e6cb04;
   z-index: 100;
   padding-top:6%;
   text-decoration: none;
+  
  
  
   
@@ -309,6 +311,7 @@ box-shadow: 0.2rem 0.2rem 1rem #e6cb04;
   color: white;
   font-size: 2rem;
   text-shadow: 1px 1px 1px #000000;
+  position: static;
   
   
 }
@@ -318,6 +321,22 @@ box-shadow: 0.2rem 0.2rem 1rem #e6cb04;
   
 }
 
+.projects-ctn{
+  height: 40rem;
+  display: flex;
+}
+
+h1{
+  font-size: 5rem;
+  color: white;
+  text-shadow: 1px 1px 1px #000000;
+  text-align: center;
+  
+}
+
+.project1-ctn{
+  border: 1px solid black;
+}
 
 
  [class*="col-"] {
