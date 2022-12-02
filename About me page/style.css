@@ -312,14 +312,18 @@ box-shadow: 0.2rem 0.2rem 1rem #e6cb04;
   
   
 }
-
+.test{
+  visibility: hidden;
+}
 
 .responsive-design-ctn{
   text-align: center;
   color: white;
   font-size: 2rem;
   text-shadow: 1px 1px 1px #000000;
-  position: static;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin-bottom: 5%;
+  
   
   
 }
