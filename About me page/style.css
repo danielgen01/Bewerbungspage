@@ -48,8 +48,7 @@ nav{
 
 .github-linkedin-ctn{
   position: fixed;
-  background-color: rgba(0, 0, 0, 0.1);
-  width: 100%;
+ 
   
 }
 
@@ -323,7 +322,6 @@ box-shadow: 0.2rem 0.2rem 1rem #e6cb04;
   color: white;
   font-size: 2rem;
   text-shadow: 1px 1px 1px #000000;
-  
   margin-bottom: 5%;
   
   
@@ -378,6 +376,8 @@ h1{
     margin-right:5%;
     margin-left:5%;
   }
+
+
 
   .skills-icons{
     max-height: 10rem;
@@ -541,6 +541,10 @@ h1{
       
     }
 
+    .github-linkedin-ctn{
+      background-color: rgba(0, 0, 0, 0.2);
+      width: 100%;
+    }
     #aboutme{
       padding-left:24%;
     }
