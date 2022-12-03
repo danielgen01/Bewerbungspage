@@ -313,7 +313,7 @@ box-shadow: 0.2rem 0.2rem 1rem #e6cb04;
   
   
 }
-.test{
+.null{
   visibility: hidden;
 }
 
@@ -348,6 +348,7 @@ h1{
 
 .project1-ctn{
   border: 1px solid black;
+ 
 }
 
 
@@ -482,7 +483,17 @@ h1{
     margin-right:5%;
     margin-left:5%;
   }
-
+  .projects-ctn{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 120%;
+    
+    
+  }
+.project1-ctn{
+  display: flex;
+  margin-left: 10%;
+}
   #navs{
     display: none;
   }
