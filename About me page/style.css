@@ -441,7 +441,10 @@ h1{
     flex-wrap: wrap;
     margin-bottom: 120%;
   }
-
+  #certificate{
+   display: none;
+  }
+ 
   }
   
 
@@ -519,6 +522,10 @@ h1{
 
  .skills-icons h3{
   padding-top: 80%;
+ }
+
+ #certificate{
+  display: none;
  }
 
   }
