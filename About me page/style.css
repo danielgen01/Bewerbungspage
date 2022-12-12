@@ -336,6 +336,9 @@ box-shadow: 0.2rem 0.2rem 1rem #e6cb04;
 .projects-ctn{
   height: 40rem;
   display: flex;
+  width: 90%;
+  margin-left:5%;
+  gap: 2%;
 }
 
 h1{
@@ -347,8 +350,16 @@ h1{
 }
 
 .project1-ctn{
-  border: 1px solid black;
+  border: 1px solid #ffffff;
+  background-color: #0077b5;
+  border-radius: 2rem;
  
+}
+
+.project1-ctn:hover{
+  background-color: #0a0a0a;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #000000;
 }
 
 
