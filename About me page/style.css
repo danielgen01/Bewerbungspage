@@ -358,7 +358,6 @@ h1{
 
 .project1-ctn:hover{
   background-color: #0a0a0a;
-  cursor: pointer;
   box-shadow: 1px 1px 1px #000000;
 }
 
@@ -391,11 +390,7 @@ h1{
 
 
 
-  .skills-icons{
-    max-height: 10rem;
-    max-width: 10rem;
-    float: left;
-  }
+ 
 
   h2{
     letter-spacing: normal;
@@ -455,6 +450,17 @@ h1{
   #certificate{
    display: none;
   }
+
+  .skills-icons{
+    margin-bottom: 10% !important;
+    max-height: 10rem;
+    max-width: 10rem;
+    float: left;
+  }
+
+  #skillsh3{
+    padding-top: 50% !important; 
+  }
  
   }
   
@@ -506,7 +512,17 @@ h1{
   }
 .project1-ctn{
   display: flex;
-  margin-left: 10%;
+  width: 100%;
+}
+
+.project1-ctn h4{
+  display: flex;
+  align-items: center;
+  margin-right: 1%;
+}
+
+.project1-ctn p{
+  font-size: 1.6rem !important;
 }
   #navs{
     display: none;
