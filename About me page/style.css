@@ -25,9 +25,10 @@ body{
 
 nav{
   display: flex;
-  justify-content: flex-end;
-  padding-top: 0.3%;
+  justify-content:center;
+  padding-top: 1%;
   margin-bottom: 5%;
+  
  
   
   
@@ -58,21 +59,32 @@ nav a{
   color:white;
   text-decoration: none;
   font-size: 20px;
-  background-color: #A80056;
-  border-radius: 1.5rem;
   letter-spacing: 0.1rem;
-  box-shadow: 0.5px 0.5px 0.5px  #000000;
   font-weight: bold;
   text-shadow: 1px 1px 1px #000000;
- 
+  
+  
 
 }
 
 nav a:hover{
   color: #e6cb04;
+  text-shadow: 1px 1px 1px #000000;
   transition: all 400ms ease-in ;
-  box-shadow: 0.2rem 0.2rem 1rem lightblue;
   cursor: pointer;
+  
+}
+
+#contact-btn{
+  font-size: 20px;
+  background-color: rgba(230, 203, 4, 0.95);
+  box-shadow: 0.5px 0.5px 0.5px  #000000;
+  border-radius: 1.5rem;
+  
+}
+
+#contact-btn:hover{
+  color: #0596A8;
   
 }
 
@@ -86,6 +98,7 @@ nav a:hover{
  margin-right: 5%;
   display: none;
   position: fixed;
+ 
   
  
  
@@ -190,7 +203,7 @@ h3{
 }
 
 .skills-icons :hover{
-box-shadow: 0.2rem 0.2rem 1rem #e6cb04;
+box-shadow: 0.2rem 0.2rem 1rem lightblue;
 }
 
 
