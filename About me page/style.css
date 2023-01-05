@@ -4,7 +4,7 @@
  
 /*
  colors:{
-    ||   0596A8 -- Background
+    ||   -- Background
     ||   #e6cb04 -- yellow for accents
     ||  #A80056 --  magenta for accents
     ||   #5C0933 --  dark violet for accents
@@ -47,18 +47,19 @@ nav{
   background-color: #e6cb04;
 }
 
-.github-linkedin-ctn{
-  position: fixed;
- 
-  
+#navs{
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  margin-right: 5%;
 }
 
 
-nav a{
+#navs a{
   padding:10px;
   color:white;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 2.2rem;
   letter-spacing: 0.1rem;
   font-weight: bold;
   text-shadow: 1px 1px 1px #000000;
@@ -67,7 +68,7 @@ nav a{
 
 }
 
-nav a:hover{
+#navs a:hover{
   color: #e6cb04;
   text-shadow: 1px 1px 1px #000000;
   transition: all 400ms ease-in ;
@@ -76,32 +77,27 @@ nav a:hover{
 }
 
 #contact-btn{
-  font-size: 20px;
-  background-color: rgba(230, 203, 4, 0.95);
-  box-shadow: 0.5px 0.5px 0.5px  #000000;
-  border-radius: 1.5rem;
   
+  text-decoration: none;
+  font-size: 2.2rem;
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6cb04;
+  border-radius: 5rem;
+  width: 10rem;
+  height: 5rem;
+  margin-left: 15%;
 }
 
 #contact-btn:hover{
-  color: #0596A8;
+  color: #0596A8 !important;
+  transition: 500ms;
   
-}
-
-
-
-
-
-
-
-#navs{
- margin-right: 5%;
-  display: none;
-  position: fixed;
- 
   
- 
- 
 }
 
 
@@ -254,6 +250,7 @@ box-shadow: 0.2rem 0.2rem 1rem lightblue;
   z-index: 1050;
   position: fixed;
   right: 0%;
+  top: 5%;
   
   
   
@@ -375,6 +372,9 @@ h1{
 }
 
 
+
+
+
  [class*="col-"] {
     padding: 1.5rem;
     
@@ -413,7 +413,7 @@ h1{
       right: 50%;
       height: auto;
       width: auto;
-      margin-bottom: 20%;
+      
       
     }
 
@@ -424,19 +424,20 @@ h1{
       
     }
 
-    #arrows{
-      margin-top: 4%;
-    }
-      
-    .arrow{
-      width: 20rem;
-      height: auto;
-    }
+   
 
   nav{
     width:100%;
     
   
+    }
+
+    #navs{
+      display: none;
+    }
+
+    #contact-btn{
+      display: none;
     }
 
   #aboutme{
@@ -516,6 +517,8 @@ h1{
     margin-right:5%;
     margin-left:5%;
   }
+
+  
   .projects-ctn{
     display: flex;
     flex-direction: column;
@@ -589,9 +592,7 @@ h1{
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
 
-    #navs{
-      display: block;
-    }
+      
 
     #menu-icon{
       display: none;
@@ -600,7 +601,7 @@ h1{
     }
 
     .github-linkedin-ctn{
-      background-color: rgba(0, 0, 0, 0.2);
+      /* background-color: rgba(0, 0, 0, 0.1); */
       width: 100%;
     }
     #aboutme{
