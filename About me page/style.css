@@ -329,6 +329,7 @@ box-shadow: 0.2rem 0.2rem 1rem lightblue;
 }
 
 .responsive-design-ctn{
+
   text-align: center;
   color: white;
   font-size: 2rem;
@@ -520,11 +521,12 @@ h1{
 
     
   html{
-    font-size: 8.5px;
+    font-size: 7.5px;
     margin-right:5%;
     margin-left:5%;
   }
 
+ 
   
   .projects-ctn{
     display: flex;
@@ -562,12 +564,13 @@ h1{
  
 
  #img-ctn{
-  padding-right: 25%;
+  padding-right: 60%;
  }
 
  #bewerbungsbild{
-  height: 40rem;
+  height: 30rem;
   width: auto;
+  
  }
 
  .skills-icons h3{
@@ -579,6 +582,10 @@ h1{
  }
 
  #contact-btn{
+  display: none;
+ }
+
+ .responsive-design-ctn h1{
   display: none;
  }
 
