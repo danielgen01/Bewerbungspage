@@ -124,7 +124,7 @@ nav{
   height: 35rem;
   width: auto;
   padding: 0.5rem;
-  background-color: rgba(5, 5, 5, 0.9);
+  
   
   
 
@@ -242,6 +242,8 @@ box-shadow: 0.2rem 0.2rem 1rem lightblue;
 #img-ctn{
  float:right;
  height: 38rem;
+
+ 
   
 }
 
