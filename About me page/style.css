@@ -17,11 +17,13 @@ html{
 }
 body{
    
-    background-color: #0596A8;
+    background-color: #030301;
     margin:0; 
     font-family: 'Montserrat', sans-serif;
+    background-image: url(https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1120&q=80);
+    background-repeat: repeat-y;
+    background-position-x: center;
 }
-
 
 nav{
   display: flex;
@@ -43,6 +45,9 @@ nav{
   
 }
 
+#linkedin:hover{
+  box-shadow: 0.2rem 0.2rem 1rem lightblue;
+}
 .github-linkedin-ctn a:hover{
   background-color: #e6cb04;
 }
@@ -114,12 +119,12 @@ nav{
 }
     
 #bewerbungsbild{
-  border-radius: 50%;
   margin-left:50%;
-  border:0.2rem groove #e6cb04;
   overflow: hidden;
   height: 35rem;
   width: auto;
+  padding: 0.5rem;
+  background-color: rgba(5, 5, 5, 0.9);
   
   
 
@@ -285,6 +290,8 @@ box-shadow: 0.2rem 0.2rem 1rem lightblue;
   
   }
 
+  
+
 .nav-bar-phone a{
   display: block;
   justify-content: center;
@@ -317,12 +324,15 @@ box-shadow: 0.2rem 0.2rem 1rem lightblue;
 }
 
 #github-icon-href {
-  color: #000000	;
+  color: #444444	;
   font-size: 10rem;
   float: left;
   
-  
-  
+
+}
+
+#github-icon-href:hover{
+  box-shadow: 0.2rem 0.2rem 1rem lightblue;
 }
 .null{
   visibility: hidden;
@@ -363,17 +373,15 @@ h1{
 
 .project-ctn{
   border: 1px solid #ffffff;
-  background-color: #0077b5;
+  background-color: #030301;
   border-radius: 2rem;
  
 }
 
 .project-ctn:hover{
-  background-color: #0a0a0a;
+  background-color: #0f0f08;
   box-shadow: 1px 1px 1px #000000;
 }
-
-
 
 
 
