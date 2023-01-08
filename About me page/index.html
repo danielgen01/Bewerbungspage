@@ -9,92 +9,194 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image/x-icon" href="favicon-32x32.png">
     <script src="https://kit.fontawesome.com/0b2e7c2d7b.js" crossorigin="anonymous"></script>
     
     <title>Daniel Adrian Gendik | Homepage</title>
 </head>
 <body>
-  
-        
+                
+        <div class="github-linkedin-ctn">
+    <a href="https://www.linkedin.com/in/daniel-gendik-b7b277254/" target="_blank"><i class='bx bxl-linkedin-square' id="linkedin"></i></a>
+    <a href="https://github.com/danielgen01?tab=repositories" target="_blank"><i class='bx bxl-github' id="github-icon-href" title="github"></i></a>
+        </div>
 
-        <!-- NavBar on top right -->
+
+
+        <!-- NavBar on top right DESKTOP-->
     
     <nav>
 
-        
+       
 
         <ul id="navs">
-        <a href="index.html">About me</a>
-        <a href="index.html">Projects</a>
-        <a href="/Skills page/skills.html">Skills</a>
-        <a href=mailto:gendik38@gmail.com title="mailtoDaniel">Contact</a>
+        <a href="#aboutme">About me</a> 
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
     </ul>
-    </nav>
+        <a href=mailto:gendik38@gmail.com title="mailtoDaniel" id="contact-btn">Contact</a>
+    
+
+
+
+
+    <!-- MOBILE PHONE MENU ICON -->
+        
+    <i class='bx bx-menu' id="menu-icon"></i>                                                     
+    <div class="nav-bar-phone">
+    <a href="#aboutme">About me</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href=mailto:gendik38@gmail.com title="mailtoDaniel">Contact</a>
+
+</div>
+    
+</nav>
+
+
+    <script>
+        
+          
+
+        let toggleStatus = 0;
+        
+        let menuButton = document.getElementById('menu-icon');
+        let menuList = document.querySelector('.nav-bar-phone');
+
+        menuButton.addEventListener('click', ()=>{
+            if(toggleStatus === 0){
+                menuList.style.display = 'block';
+                toggleStatus = 1;
+            }else if(toggleStatus === 1){
+                menuList.style.display = 'none';
+                toggleStatus = 0;
+            }
+        });
+
+          
+ 
+ 
+
+
+
+ 
+ </script>
+    
+   
+    
 
                     <!-- My person description in middle  -->
 
-            <main>
+           
                 
                     
-                <div id="aboutme">
+                    
+                <div id="aboutme" class="col-s-7 col-7">
                     <h2 id="description">Hi ! My name is  <span style="color: #e6cb04">Daniel</span><br> and I'm a 21 year old <br>
-                        <span style="color: #e6cb04">frontend developer </span><br>from Germany</h2>
+                        <span style="color: #e6cb04">frontend developer</span><br>from Germany</h2>
 
-                
-                    <!-- Picture for applying -->
-
-                    <aside>
-                        
-            
-                
-                    <img src="Bewerbungsbild.jpg"
-                    class="bewerbungsbild"
-                    width="320px"
-                    height="400px"
-                    id="bewerbungsbild"
-                    alt="Bewerbungsbild"
-                 
-                    />
-
-                
-               
-                </aside>
-
-                
-
-                        <!-- My skills + icons -->
                     </div>
 
-                <div id="skills">
-                    <h3> Skills</h3>
+                    <!-- Picture for applying -->
+
+                   
+                        <div class="col-s-5 col-5" id="img-ctn">
+            
+                
+                   <a href="https://ibb.co/VNdvb8j" 
+                   target="_blank">
+                   
+                   <img src="Bewerbungsbild3.png"
+                    class="bewerbungsbild"
+                    id="bewerbungsbild"
+                    alt="Bewerbungsbild"
+                   
+                   
+                    
+                    
+                 
+                    />
+                </a>                 
+                        </div>
+                       
+                        <div class="null">
+                            <h1>TEst</h1>
+                        </div>
+            
+                 <!-- <div class="responsive-design-ctn col-s-12 col-12" > 
+                    <h1>Responsive Web Design</h1>
+
+                <img src="Responsive Design Bewerbungspage.png" id="responsive-design-img">
+
+            </div> -->
+
+
+                <h1>Projects</h1>
+            <div class="projects-ctn" id="projects">
+                
+
+                <div class="col-s-4 col-4 project-ctn" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                    <h4 style="color: #ffffff; text-align: center; font-size: 2rem; ">Quiz App</h4>
+                <a href="https://quizappdanielg.netlify.app" target="_blank"><img src="quizappscreen.PNG" style="height:27rem ; text-align: center; border-radius: 2rem;"></a>
+                <p style="font-size: 2rem; color: white; text-align: center; text-shadow: 1px 1px 1px #000000;">Used Technologies: HTML  |   CSS   |   JAVASCRIPT</p>
+
+                 </div>
+
+                 <div class="col-s-4 col-4 project-ctn"  style="display: flex; flex-direction: column; justify-content: center; align-items: center; "> 
+                    <h4 style="color: #ffffff; text-align: center; font-size: 2rem; ">Tesla Clone Webpage</h4>
+                    <a href="https://tesla-clone-webpage.netlify.app" target="_blank"><img src="Tesla Clone screen.PNG" style="height:27rem ; text-align: center; border-radius: 2rem;"></a>
+                    <p style="font-size: 2rem; color: white; text-align: center; text-shadow: 1px 1px 1px #000000;">Used Technologies: HTML  |   CSS   </p>
+    
+                     </div>
+
+                 <div class="col-s-4 col-4 project-ctn"  style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                    <h4 style="color: #ffffff; text-align: center; font-size: 2rem; ">Kanban Board</h4>
+                    <a href="https://daniel-gendik-kanban.netlify.app" target="_blank"><img src="Kanban screen.PNG" style="height:27rem ; text-align: center; border-radius: 2rem;" ></a>
+                    <p style="font-size: 2rem; color: white; text-align: center; text-shadow: 1px 1px 1px #000000;">Used Technologies: HTML  |   CSS   |   JAVASCRIPT</p>
+    
+                     </div>
+
+                     
+
+
+
+            </div>  <!-- Ende vom gesamten Div 'projects-ctn' -->
+
+
+                  <!-- My skills + icons -->
+                   
+                        
+                  <h3 style="text-align: center; " id="skillsh3"> Skills</h3>
+                  <div class="skills-ctn col-s-12 col-12" id="skills">
+                    
+                    
                     <div class="skills-icons">
-                    <i class='bx bxl-html5' id="html-icon" title="HTML"></i>
-                    <i class='bx bxl-css3' id="css-icon" title="CSS"></i>
-                    <i class='bx bxl-javascript' id="js-icon" title="JavaScript"></i>
-                    <i class='bx bxl-react' id="react-icon" title="react"></i>
-                    <i class='bx bxl-git' id="git-icon" title="git"></i>
-                    <i class='bx bxl-github' id="github-icon" title="github"></i>
+                        
+                        <a href="https://de.wikipedia.org/wiki/Hypertext_Markup_Language" target="_blank"><img title="HTML" src="HTML Logo.svg" class="logo" ></a>
+                        <a href="https://de.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank"><img title="CSS"  src="CSS Logo.svg" class="logo"></a>
+                        <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank"><img title="JAVASCRIPT"  src="JS Logo.svg" class="logo"></a>
+                        <a href="https://de.wikipedia.org/wiki/React" target="_blank"><img title="REACT"  src="React Logo.svg" class="logo"></a>
+                        <a href="https://de.wikipedia.org/wiki/Git" target="_blank"><img title="GIT"  src="Git Logo.svg" class="logo"></a>
+                        <a href="https://de.wikipedia.org/wiki/GitHub" target="_blank"><img title="GITHUB"  src="Github Logo.svg" class="logo"></a>
                 </div>
 
                 </div>
-            </main>
+            
+          
+                            
+                    <div class="certificates-ctn">
+                        
+                <a href="https://ibb.co/TvRtsTZ" target="_blank"> <img src="javascript certificate png.PNG" 
+                    style="max-width: 35rem; max-height: auto; margin-left: 40%; margin-top: 5%;" id="certificate"></a>                   
+                        </div>
 
-
-
-                    <!-- Next button (arrow) bottom right  -->
-    <footer id="arrows">
-      
-            <div class="arrow">
-
-        <a href="index.html"><i class='fas fa-long-arrow-alt-right' id="arrow-icon"></i> </a>
-    </div>
         
-   
-        
+
+    <footer> 
+    <p id="made">Made with <i class='bx bxs-heart' id="heart" ></i > in Huellhorst</p>
     </footer>
 
     
-    <p id="made">Made with <i class='bx bxs-heart' id="heart" ></i > in Huellhorst</p>
 </body>
 
     

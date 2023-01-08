@@ -4,7 +4,7 @@
  
 /*
  colors:{
-    ||   0596A8 -- Background
+    ||   -- Background
     ||   #e6cb04 -- yellow for accents
     ||  #A80056 --  magenta for accents
     ||   #5C0933 --  dark violet for accents
@@ -12,69 +12,120 @@
  }
 
  */
-
+html{
+  font-size: 10px;
+}
 body{
    
-    background-color: #0596A8;
+    background-color: #030301;
     margin:0; 
     font-family: 'Montserrat', sans-serif;
+    background-image: url(Background.avif);
+    /* background-repeat: repeat-y; */
+    background-repeat: no-repeat;
+    background-position-x: center;
 }
-
 
 nav{
   display: flex;
-  justify-content: flex-end;
-  padding-top: 0.3%;
+  justify-content:center;
+  padding-top: 1%;
+  margin-bottom: 5%;
+  
+ 
+  
   
 }
 
+#linkedin{
+  color: #0077b5	;
+  font-size: 10rem;
+  float: left;
+  text-shadow: 1px 1px 1px #000000;
+   
+  
+}
 
-nav a{
+#linkedin:hover{
+  box-shadow: 0.2rem 0.2rem 1rem lightblue;
+}
+.github-linkedin-ctn a:hover{
+  background-color: #e6cb04;
+}
+
+#navs{
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  margin-right: 5%;
+}
+
+
+#navs a{
   padding:10px;
   color:white;
   text-decoration: none;
-  font-size: 20px;
-  background-color: #A80056;
-  border-radius: 20px;
-  letter-spacing: 1px;
-  box-shadow: 1px 1px 1px 1px #000000;
+  font-size: 2.2rem;
+  letter-spacing: 0.1rem;
   font-weight: bold;
+  text-shadow: 1px 1px 1px #000000;
+  
   
 
 }
 
-nav a:hover{
+#navs a:hover{
   color: #e6cb04;
+  text-shadow: 1px 1px 1px #000000;
   transition: all 400ms ease-in ;
-  box-shadow: 2px 2px 10px lightblue;
   cursor: pointer;
   
 }
 
-
-
-
-
-#navs{
- margin-right: 5%;
- 
+#contact-btn{
+  
+  text-decoration: none;
+  font-size: 2.2rem;
+  color: rgba(255, 255, 255, 0.88);
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6cb04;
+  border-radius: 5rem;
+  width: 10rem;
+  height: 5rem;
+  margin-left: 15%;
 }
+
+#contact-btn:hover{
+  color: rgba(255, 255, 255, 1) !important;
+  text-shadow: 1px 1px 1px #000000;
+  transition: 500ms;
+  
+  
+}
+
+
+
+
 
 #name{
   display: flex;
   justify-content: center;
   color: white;
   text-shadow: 1px 2px 1px #000000;
-  font-size: 35px;
+  font-size: 3rem;
 }
     
 #bewerbungsbild{
-  border-radius: 50%;
   margin-left:50%;
-  border:3px solid #e6cb04;
   overflow: hidden;
-  height: 350px;
-  width: 350px;
+  height: 35rem;
+  width: auto;
+  padding: 0.5rem;
+  
   
   
 
@@ -82,19 +133,21 @@ nav a:hover{
 }
   
 #aboutme{
+  padding-top: 0%;
   display: flex;
   justify-content: center;
-  margin-top: 5%;
-  margin-left: 18%; 
+  float:left;
+  height:38rem;
+ 
 
 }
 h2{
   text-align: center;
   color: #ffffff;
   text-shadow:  1px 1.5px 2px #000000;
-  font-size: 55px;
-  line-height: 70px;
-  letter-spacing: 2px;
+  font-size: 5rem;
+  line-height: 7rem;
+  letter-spacing: 0.1rem;
 
 }
 
@@ -102,98 +155,69 @@ h2{
   text-align: center;
   color: white;
   text-shadow:  1px 2px 1px #000000;
-  font-size: 25px;
+  font-size: 2rem;
   z-index: 1;
  
 
 }
 
 h3{
+ 
+  font-size: 4rem;
+  color: white;
+  text-shadow:  1px 2px 1px #000000;
+
+}
+
+.skills-ctn{
+ 
+  color: white;
   text-align: center;
-  font-size: 52px;
-  color: white;
-  text-shadow:  1px 2px 1px #000000;
-}
-
-#skills{
- 
-  color: white;
- text-align: center;
-
-
-
-}
-
-.skills-icons i{
- color: rgba(255, 254, 254, 0.99);
- font-size: 100px;
- 
- 
-}
-
-.skills-icons i:hover{
-box-shadow: 2px 2px 15px #e6cb04;
-}
-
-
-#arrows{
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 2%;
- 
-}
-
-.arrow{
-  background-color:#A80056;
-  width: 250px;
-  border-radius: 50px;
-  box-shadow: 1px 1px 1px 1px #000000;
-}
-
-.arrow:hover{
-  box-shadow: 2px 2px 10px lightblue;
-  cursor: pointer;
-}
-
-.arrow:active{
-  margin-top: 15px;
-  margin-bottom:1px;
-  box-shadow: 0px 0px;
-
-}
-
-.arrow i{
-  color: rgb(187, 187, 187);
-  font-size:58px;
-  display: flex;
-  justify-content: flex-start;
-  margin-left:2%;
-  position: relative;
-  text-shadow:  1px 2px 1px #000000;
+  height: 25rem;
   
 }
 
-.arrow i:hover{
-  cursor: pointer;
-  transition:  500ms ease-in-out 0.345s;
-  transform: translate(10%);
-  color: #e6cb04;
-  font-size: 68px;
-  cursor: pointer;
+
+
+.skills-icons {
+ max-width: 10rem;
+ max-height: 10rem;
+ gap:20%;
+ text-shadow: 1px 1px 1px #000000;
+ display: flex;
+ justify-content: center;
+ 
+ 
  
 }
 
-.arrow i :active{
- background-color: #A80056;
-  
+.logo{
+  width: 10rem !important;
 }
+
+
+
+.skills-ctn{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  padding-top: 5rem;
+  height: 15rem;
+}
+
+.skills-icons :hover{
+box-shadow: 0.2rem 0.2rem 1rem lightblue;
+}
+
+
+
 
 #made{
   color: white;
   text-shadow: 1px 1px 1px black;
   text-align: center;
-  margin-top: 3%;
-  font-size: 20px;
+  margin-top: 2%;
+  font-size: 1.5rem;
 }
 
 #heart{
@@ -213,33 +237,285 @@ box-shadow: 2px 2px 15px #e6cb04;
 
 #description{
  text-align: center;
+ 
 
+}
+
+#img-ctn{
+ float:right;
+ height: 38rem;
+
+ 
+  
+}
+
+
+
+#menu-icon{
+  font-size: 10rem;
+  color: #ffffff;
+  text-shadow: 1px 1px 1px #000000;
+  display: block;
+  float: right;
+  z-index: 1050;
+  position: fixed;
+  right: 0%;
+  top: 5%;
+  
+  
+  
+}
+
+#menu-icon:hover{
+  cursor: pointer;
+ 
+}
+
+#menu-icon:active{
+  cursor: pointer;
+  color: #e6cb04;
+}
+
+.nav-bar-phone{
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 50rem;
+  width: 90%;
+  z-index: 100;
+  margin:0;
+  padding: 0;
+  margin-top: 15%;
+  overflow: visible;
+  flex-wrap: nowrap;
+  gap:5px;
+  display: none;
+  border-radius: 2rem;
+  position: fixed;
+  
+  
+  }
+
+  
+
+.nav-bar-phone a{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  color: #ffffff;
+  display: flex;
+  padding: 1rem;
+  z-index: 100;
+  padding-top:6%;
+  text-decoration: none;
+  
+ 
+ 
+  
+}
+
+.nav-bar-phone a:hover{
+  color: #e6cb04;
+}
+
+
+.nav-bar-phone a:active{
+  color: #e6cb04;
+  transform: translateY(0);
+}
+
+ a.active {
+  color:#e6cb04 ;
+}
+
+#github-icon-href {
+  color: #444444	;
+  font-size: 10rem;
+  float: left;
+  
+
+}
+
+#github-icon-href:hover{
+  box-shadow: 0.2rem 0.2rem 1rem lightblue;
+}
+.null{
+  visibility: hidden;
+}
+
+.responsive-design-ctn{
+
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  text-shadow: 1px 1px 1px #000000;
+  margin-bottom: 5%;
+  
+  
+  
+}
+#responsive-design-img{
+  width: 60%;
+  height: 50%;
+  
+}
+
+.projects-ctn{
+  height: 40rem;
+  display: flex;
+  width: 90%;
+  margin-left:5%;
+  gap: 2%;
+}
+
+h1{
+  font-size: 5rem;
+  color: white;
+  text-shadow: 1px 1px 1px #000000;
+  text-align: center;
+  
+}
+
+.project-ctn{
+  border: 1px solid #ffffff;
+  background-color: #030301;
+  border-radius: 2rem;
+ 
+}
+
+.project-ctn:hover{
+  background-color: #0f0f08;
+  box-shadow: 1px 1px 1px #000000;
 }
 
 
 
  [class*="col-"] {
-    padding: 15px;
-    border: 1px solid blue;
+    padding: 1.5rem;
+    
 
    
     
   }
   
-  @media only screen and (max-width: 768px) {
+  @media only screen and (min-width: 300px) and (max-width: 480px) {    
 /* For mobile phones: */
 [class*="col-"] {
     width: 100%;
+    margin-top: 10%;
     
 
     
   }
-}
 
+
+
+  html{
+    font-size: 5.5px;
+    margin-right:5%;
+    margin-left:5%;
+  }
+
+
+  #responsive-design-img{
+
+    width: 100%;
+    height: auto;
+  }
+ 
+
+  h2{
+    letter-spacing: normal;
+  }
+
+    #bewerbungsbild{
+      
+      height: 10%;
+      width: 70%;
+      display: flex;
+      justify-content: center;
+      
+      
+    }
+
+    #img-ctn{
+      margin-right: 22rem;
+      display: flex;
+      align-items: center;
+      
+    }
+
+   
+
+  nav{
+    width:100%;
+    
+  
+    }
+
+    #navs{
+      display: none;
+    }
+
+    #contact-btn{
+      display: none;
+    }
+
+  #aboutme{
+    display: flex;
+    justify-content: center;
+  }
+
+  #made{
+    font-size: 3rem;
+  }
+
+  #linkedin{
+  margin-top: 10%;
+  }
+
+  #github-icon-href{
+    margin-top: 10%;
+  }
+
+  .projects-ctn{
+    flex-wrap: wrap;
+    margin-bottom: 120%;
+  }
+  #certificate{
+   display: none;
+  }
+
+  .skills-icons{
+    margin-bottom: 10% !important;
+    max-height: 10rem;
+    max-width: 10rem;
+    float: left;
+  }
+
+  #skillsh3{
+    padding-top: 70% !important; 
+  }
+ 
+  }
+  
 
   
-@media only screen and (min-width: 600px) {
-    /* For tablets: */
+
+
+
+   /* For tablets: */
+
+@media only screen and (min-width: 481px) and (max-width: 949px) {
+
+  [class*="col-"] {
+    width: 100%;
+    margin-top: 10%;
+    
+
+    
+  }
+
+   
     .col-s-1 {width: 8.33%;}
     .col-s-2 {width: 16.66%;}
     .col-s-3 {width: 25%;}
@@ -253,9 +529,85 @@ box-shadow: 2px 2px 15px #e6cb04;
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
 
+
+
+    
+  html{
+    font-size: 7.5px;
+    margin-right:5%;
+    margin-left:5%;
   }
+
+ 
   
-  @media only screen and (min-width: 768px) {
+  .projects-ctn{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 120%;
+    
+    
+  }
+.project-ctn{
+  display: flex;
+  width: 100%;
+}
+
+.project-ctn h4{
+  display: flex;
+  align-items: center;
+  margin-right: 1%;
+}
+
+.project-ctn p{
+  font-size: 1.6rem !important;
+}
+  #navs{
+    display: none;
+  }
+
+  #linkedin{
+  margin-top: 5%;
+  }
+
+  #github-icon-href{
+    margin-top: 5%;
+  }
+ 
+ 
+
+ #img-ctn{
+  padding-right: 60%;
+ }
+
+ #bewerbungsbild{
+  height: 30rem;
+  width: auto;
+  
+ }
+
+ .skills-icons h3{
+  padding-top: 80%;
+ }
+
+ #certificate{
+  display: none;
+ }
+
+ #contact-btn{
+  display: none;
+ }
+
+ .responsive-design-ctn h1{
+  display: none;
+ }
+
+  }
+
+    
+
+  
+  
+  @media only screen and (min-width: 950px) {
     /* For desktop: */
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
@@ -270,5 +622,45 @@ box-shadow: 2px 2px 15px #e6cb04;
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
 
+      
+
+    #menu-icon{
+      display: none;
+      
+      
+    }
+
+    .github-linkedin-ctn{
+      /* background-color: rgba(0, 0, 0, 0.1); */
+      width: 100%;
+    }
+    #aboutme{
+      padding-left:24%;
+    }
   
-  }
+   
+
+      
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
+}
